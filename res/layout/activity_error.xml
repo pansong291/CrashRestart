@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:lines="3"
+		android:hint="请输入您刚才的操作"
+		android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="取消"
+		android:layout_width="wrap_content"
+		android:layout_gravity="right"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="错误详情："
+		android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginLeft="5dp"/>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:padding="5dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="文本"
+				android:layout_width="match_parent"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/activityerrorTextView1"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

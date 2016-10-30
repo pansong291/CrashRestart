@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".ErrorActivity">
+
+	<Button
+		android:id="@+id/error_textview"
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:onClick="ClickMethod"
+		android:text="点击抛出异常，然后重新启动应用，（此步可以指定activity进行启动）"/>
+
+</RelativeLayout>
+
