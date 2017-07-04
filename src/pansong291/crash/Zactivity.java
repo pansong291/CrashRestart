@@ -1,9 +1,8 @@
 package pansong291.crash;
 
-import android.app.*;
-import android.os.*;
-import android.view.*;
-import android.widget.*;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Toast;
 
 public class Zactivity extends Activity
 {
@@ -12,14 +11,14 @@ public class Zactivity extends Activity
  protected void onCreate(Bundle savedInstanceState)
  {
   super.onCreate(savedInstanceState);
-  ActivityControl.getActivityControl().addActivity(this);
+  ASControl.getASControl().addActivity(this);
  }
 
  @Override
  protected void onDestroy()
  {
   super.onDestroy();
-  ActivityControl.getActivityControl().removeActivity(this);
+  ASControl.getASControl().removeActivity(this);
  }
 
  public void toast(String str,int i)

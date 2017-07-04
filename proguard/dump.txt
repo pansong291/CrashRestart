@@ -1,0 +1,2169 @@
+_____________________________________________________________________
++ Program class: a/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class a.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 100):
+  + String [LogCat]
+  + String [logcat -v threadtime]
+  + Class [a/a]
+  + Class [a/b]
+  + Class [android/content/Context]
+  + Class [android/content/pm/ApplicationInfo]
+  + Class [android/content/pm/PackageManager]
+  + Class [android/content/pm/PackageManager$NameNotFoundException]
+  + Class [java/io/BufferedReader]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStreamReader]
+  + Class [java/lang/Object]
+  + Class [java/lang/Process]
+  + Class [java/lang/Runnable]
+  + Class [java/lang/Runtime]
+  + Class [java/lang/String]
+  + Class [java/lang/Thread]
+  + Fieldref [a/a.a Landroid/content/Context;]
+  + Fieldref [android/content/pm/ApplicationInfo.flags I]
+  + Methodref [a/a.<init> ()V]
+  + Methodref [a/b.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [a/b.a ([Ljava/lang/String;)V]
+  + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [android/content/Context.getApplicationInfo ()Landroid/content/pm/ApplicationInfo;]
+  + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+  + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;I)V]
+  + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+  + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Process.getInputStream ()Ljava/io/InputStream;]
+  + Methodref [java/lang/Runtime.exec (Ljava/lang/String;)Ljava/lang/Process;]
+  + Methodref [java/lang/Runtime.getRuntime ()Ljava/lang/Runtime;]
+  + Methodref [java/lang/Thread.<init> (Ljava/lang/Runnable;Ljava/lang/String;)V]
+  + Methodref [java/lang/Thread.start ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/InputStream;)V]
+  + NameAndType [<init> (Ljava/io/Reader;I)V]
+  + NameAndType [<init> (Ljava/lang/Runnable;Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a ([Ljava/lang/String;)V]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [exec (Ljava/lang/String;)Ljava/lang/Process;]
+  + NameAndType [flags I]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getApplicationInfo ()Landroid/content/pm/ApplicationInfo;]
+  + NameAndType [getInputStream ()Ljava/io/InputStream;]
+  + NameAndType [getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + NameAndType [getPackageManager ()Landroid/content/pm/PackageManager;]
+  + NameAndType [getRuntime ()Ljava/lang/Runtime;]
+  + NameAndType [readLine ()Ljava/lang/String;]
+  + NameAndType [start ()V]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/pm/ApplicationInfo;]
+  + Utf8 [()Landroid/content/pm/PackageManager;]
+  + Utf8 [()Ljava/io/InputStream;]
+  + Utf8 [()Ljava/lang/Runtime;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/io/InputStream;)V]
+  + Utf8 [(Ljava/io/Reader;I)V]
+  + Utf8 [(Ljava/lang/Runnable;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Process;]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Utf8 [([Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [LogCat]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [a/b]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/pm/ApplicationInfo]
+  + Utf8 [android/content/pm/PackageManager]
+  + Utf8 [android/content/pm/PackageManager$NameNotFoundException]
+  + Utf8 [exec]
+  + Utf8 [flags]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getApplicationInfo]
+  + Utf8 [getInputStream]
+  + Utf8 [getPackageInfo]
+  + Utf8 [getPackageManager]
+  + Utf8 [getRuntime]
+  + Utf8 [java/io/BufferedReader]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStreamReader]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Process]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [java/lang/Runtime]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [logcat -v threadtime]
+  + Utf8 [readLine]
+  + Utf8 [run]
+  + Utf8 [start]
+
+Fields (count = 1):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0xa
+      = private static android.content.Context a
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 80, locals = 2, stack = 4):
+      [0] getstatic #18
+        + Fieldref [a/a.a Landroid/content/Context;]
+      [3] ifnull +4 (target=7)
+      [6] return
+      [7] aload_0 v0
+      [8] invokevirtual #23
+        + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+      [11] putstatic #18
+        + Fieldref [a/a.a Landroid/content/Context;]
+      [14] iconst_0
+      [15] aload_0 v0
+      [16] invokevirtual #24
+        + Methodref [android/content/Context.getApplicationInfo ()Landroid/content/pm/ApplicationInfo;]
+      [19] getfield #19
+        + Fieldref [android/content/pm/ApplicationInfo.flags I]
+      [22] iconst_2
+      [23] iand
+      [24] ificmpeq +7 (target=31)
+      [27] iconst_1
+      [28] goto +4 (target=32)
+      [31] iconst_0
+      [32] ifne +4 (target=36)
+      [35] return
+      [36] aload_0 v0
+      [37] invokevirtual #25
+        + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [40] aload_1 v1
+      [41] sipush 128
+      [44] invokevirtual #26
+        + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+      [47] pop
+      [48] goto +5 (target=53)
+      [51] pop
+      [52] return
+      [53] getstatic #18
+        + Fieldref [a/a.a Landroid/content/Context;]
+      [56] aload_1 v1
+      [57] invokestatic #21
+        + Methodref [a/b.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [60] new #17
+        + Class [java/lang/Thread]
+      [63] dup
+      [64] new #3
+        + Class [a/a]
+      [67] dup
+      [68] invokespecial #20
+        + Methodref [a/a.<init> ()V]
+      [71] ldc #1
+        + String [LogCat]
+      [73] invokespecial #34
+        + Methodref [java/lang/Thread.<init> (Ljava/lang/Runnable;Ljava/lang/String;)V]
+      [76] invokevirtual #35
+        + Methodref [java/lang/Thread.start ()V]
+      [79] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (36 -> 48: 51):
+      + Class [android/content/pm/PackageManager$NameNotFoundException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x11
+      = public final void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 56, locals = 3, stack = 5):
+      [0] invokestatic #33
+        + Methodref [java/lang/Runtime.getRuntime ()Ljava/lang/Runtime;]
+      [3] ldc #2
+        + String [logcat -v threadtime]
+      [5] invokevirtual #32
+        + Methodref [java/lang/Runtime.exec (Ljava/lang/String;)Ljava/lang/Process;]
+      [8] astore_1 v1
+      [9] new #9
+        + Class [java/io/BufferedReader]
+      [12] dup
+      [13] new #11
+        + Class [java/io/InputStreamReader]
+      [16] dup
+      [17] aload_1 v1
+      [18] invokevirtual #31
+        + Methodref [java/lang/Process.getInputStream ()Ljava/io/InputStream;]
+      [21] invokespecial #29
+        + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+      [24] bipush 20
+      [26] invokespecial #27
+        + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;I)V]
+      [29] astore_1 v1
+      [30] aload_1 v1
+      [31] invokevirtual #28
+        + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [34] dup
+      [35] astore_2 v2
+      [36] ifnull +17 (target=53)
+      [39] iconst_1
+      [40] anewarray #16
+        + Class [java/lang/String]
+      [43] dup
+      [44] iconst_0
+      [45] aload_2 v2
+      [46] aastore
+      [47] invokestatic #22
+        + Methodref [a/b.a ([Ljava/lang/String;)V]
+      [50] goto -20 (target=30)
+      [53] return
+      [54] pop
+      [55] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 53: 54):
+      + Class [java/io/IOException]
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: a/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class a.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 43):
+  + String [com.adrt.LOGCAT_ENTRIES]
+  + String [lines]
+  + Class [a/b]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [java/lang/Object]
+  + Fieldref [a/b.a Landroid/content/Context;]
+  + Fieldref [a/b.b Ljava/lang/String;]
+  + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+  + Methodref [android/content/Intent.<init> ()V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.setAction (Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [sendBroadcast (Landroid/content/Intent;)V]
+  + NameAndType [setAction (Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [([Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [a/b]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [b]
+  + Utf8 [com.adrt.LOGCAT_ENTRIES]
+  + Utf8 [java/lang/Object]
+  + Utf8 [lines]
+  + Utf8 [putExtra]
+  + Utf8 [sendBroadcast]
+  + Utf8 [setAction]
+  + Utf8 [setPackage]
+
+Fields (count = 2):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0xa
+      = private static android.content.Context a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String b
+
+Methods (count = 2):
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] putstatic #7
+        + Fieldref [a/b.a Landroid/content/Context;]
+      [4] aload_1 v1
+      [5] putstatic #8
+        + Fieldref [a/b.b Ljava/lang/String;]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a([Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(java.lang.String[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 2, stack = 3):
+      [0] new #5
+        + Class [android/content/Intent]
+      [3] dup
+      [4] invokespecial #10
+        + Methodref [android/content/Intent.<init> ()V]
+      [7] dup
+      [8] astore_1 v1
+      [9] getstatic #8
+        + Fieldref [a/b.b Ljava/lang/String;]
+      [12] invokevirtual #13
+        + Methodref [android/content/Intent.setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+      [15] pop
+      [16] aload_1 v1
+      [17] ldc #1
+        + String [com.adrt.LOGCAT_ENTRIES]
+      [19] invokevirtual #12
+        + Methodref [android/content/Intent.setAction (Ljava/lang/String;)Landroid/content/Intent;]
+      [22] pop
+      [23] aload_1 v1
+      [24] ldc #2
+        + String [lines]
+      [26] aload_0 v0
+      [27] invokevirtual #11
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+      [30] pop
+      [31] getstatic #7
+        + Fieldref [a/b.a Landroid/content/Context;]
+      [34] aload_1 v1
+      [35] invokevirtual #9
+        + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+      [38] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/a
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x31
+    = public final class pansong291.crash.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 73):
+  + Class [android/app/Activity]
+  + Class [android/app/Service]
+  + Class [android/os/Process]
+  + Class [java/lang/Object]
+  + Class [java/util/ArrayList]
+  + Class [java/util/Collection]
+  + Class [java/util/Iterator]
+  + Class [java/util/List]
+  + Class [pansong291/crash/a]
+  + Fieldref [pansong291/crash/a.a Lpansong291/crash/a;]
+  + Fieldref [pansong291/crash/a.b Ljava/util/List;]
+  + Fieldref [pansong291/crash/a.c Ljava/util/List;]
+  + Methodref [android/app/Activity.finish ()V]
+  + Methodref [android/app/Service.stopSelf ()V]
+  + Methodref [android/os/Process.killProcess (I)V]
+  + Methodref [android/os/Process.myPid ()I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [pansong291/crash/a.<init> ()V]
+  + InterfaceMethodref [java/util/Collection.iterator ()Ljava/util/Iterator;]
+  + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/List.remove (Ljava/lang/Object;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lpansong291/crash/a;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b Ljava/util/List;]
+  + NameAndType [c Ljava/util/List;]
+  + NameAndType [finish ()V]
+  + NameAndType [hasNext ()Z]
+  + NameAndType [iterator ()Ljava/util/Iterator;]
+  + NameAndType [killProcess (I)V]
+  + NameAndType [myPid ()I]
+  + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [remove (Ljava/lang/Object;)Z]
+  + NameAndType [stopSelf ()V]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/util/Iterator;]
+  + Utf8 [()Lpansong291/crash/a;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/util/List;]
+  + Utf8 [Lpansong291/crash/a;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/Service]
+  + Utf8 [android/os/Process]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [finish]
+  + Utf8 [hasNext]
+  + Utf8 [iterator]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/Collection]
+  + Utf8 [java/util/Iterator]
+  + Utf8 [java/util/List]
+  + Utf8 [killProcess]
+  + Utf8 [myPid]
+  + Utf8 [next]
+  + Utf8 [pansong291/crash/a]
+  + Utf8 [remove]
+  + Utf8 [stopSelf]
+
+Fields (count = 3):
+  + Field:        a Lpansong291/crash/a;
+    Access flags: 0xa
+      = private static pansong291.crash.a a
+  + Field:        b Ljava/util/List;
+    Access flags: 0x2
+      = private java.util.List b
+  + Field:        c Ljava/util/List;
+    Access flags: 0x2
+      = private java.util.List c
+
+Methods (count = 6):
+  + Method:       a(Landroid/app/Activity;)V
+    Access flags: 0x11
+      = public final void a(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [pansong291/crash/a.b Ljava/util/List;]
+      [4] aload_1 v1
+      [5] invokeinterface #23, 512
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [10] pop
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Landroid/app/Activity;)V
+    Access flags: 0x11
+      = public final void b(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [pansong291/crash/a.b Ljava/util/List;]
+      [4] aload_1 v1
+      [5] invokeinterface #24, 512
+        + InterfaceMethodref [java/util/List.remove (Ljava/lang/Object;)Z]
+      [10] pop
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x11
+      = public final void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 93, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [pansong291/crash/a.b Ljava/util/List;]
+      [4] checkcast #6
+        + Class [java/util/Collection]
+      [7] invokeinterface #20, 256
+        + InterfaceMethodref [java/util/Collection.iterator ()Ljava/util/Iterator;]
+      [12] astore_1 v1
+      [13] goto +21 (target=34)
+      [16] aload_1 v1
+      [17] invokeinterface #22, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [22] checkcast #1
+        + Class [android/app/Activity]
+      [25] dup
+      [26] astore_2 v2
+      [27] ifnull +7 (target=34)
+      [30] aload_2 v2
+      [31] invokevirtual #13
+        + Methodref [android/app/Activity.finish ()V]
+      [34] aload_1 v1
+      [35] invokeinterface #21, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [40] ifne -24 (target=16)
+      [43] aload_0 v0
+      [44] getfield #12
+        + Fieldref [pansong291/crash/a.c Ljava/util/List;]
+      [47] checkcast #6
+        + Class [java/util/Collection]
+      [50] invokeinterface #20, 256
+        + InterfaceMethodref [java/util/Collection.iterator ()Ljava/util/Iterator;]
+      [55] astore_2 v2
+      [56] goto +21 (target=77)
+      [59] aload_2 v2
+      [60] invokeinterface #22, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [65] checkcast #2
+        + Class [android/app/Service]
+      [68] dup
+      [69] astore_1 v1
+      [70] ifnull +7 (target=77)
+      [73] aload_1 v1
+      [74] invokevirtual #14
+        + Methodref [android/app/Service.stopSelf ()V]
+      [77] aload_2 v2
+      [78] invokeinterface #21, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [83] ifne -24 (target=59)
+      [86] invokestatic #16
+        + Methodref [android/os/Process.myPid ()I]
+      [89] invokestatic #15
+        + Methodref [android/os/Process.killProcess (I)V]
+      [92] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()Lpansong291/crash/a;
+    Access flags: 0x9
+      = public static pansong291.crash.a b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 0, stack = 1):
+      [0] getstatic #10
+        + Fieldref [pansong291/crash/a.a Lpansong291/crash/a;]
+      [3] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x0
+      = a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 27, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] new #5
+        + Class [java/util/ArrayList]
+      [8] dup
+      [9] invokespecial #18
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [12] putfield #11
+        + Fieldref [pansong291/crash/a.b Ljava/util/List;]
+      [15] aload_0 v0
+      [16] new #5
+        + Class [java/util/ArrayList]
+      [19] dup
+      [20] invokespecial #18
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [23] putfield #12
+        + Fieldref [pansong291/crash/a.c Ljava/util/List;]
+      [26] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x18
+      = static final void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 0, stack = 2):
+      [0] new #9
+        + Class [pansong291/crash/a]
+      [3] dup
+      [4] invokespecial #19
+        + Methodref [pansong291/crash/a.<init> ()V]
+      [7] putstatic #10
+        + Fieldref [pansong291/crash/a.a Lpansong291/crash/a;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/CrashApplication
+  Superclass:    android/app/Application
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x421
+    = public abstract class pansong291.crash.CrashApplication extends android.app.Application
+
+Interfaces (count = 1):
+  + Class [java/lang/Thread$UncaughtExceptionHandler]
+
+Constant Pool (count = 254):
+  + Integer [268435456]
+  + String []
+  + String [
+]
+  + String [-----DeviceInfos-----
+]
+  + String [-----Logs-----
+]
+  + String [=]
+  + String [alarm]
+  + String [android.os.Build]
+  + String [com.aide.ui]
+  + String [error]
+  + String [null]
+  + String [versionCode=]
+  + String [versionName=]
+  + String [yyyy-MM-dd/HH:mm:ss]
+  + Class [a/a]
+  + Class [android/app/AlarmManager]
+  + Class [android/app/Application]
+  + Class [android/app/PendingIntent]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [android/content/pm/PackageInfo]
+  + Class [android/content/pm/PackageManager]
+  + Class [android/util/Log]
+  + Class [java/io/ByteArrayOutputStream]
+  + Class [java/io/PrintStream]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/Exception]
+  + Class [java/lang/NoClassDefFoundError]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuffer]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/System]
+  + Class [java/lang/Thread]
+  + Class [java/lang/Thread$UncaughtExceptionHandler]
+  + Class [java/lang/Throwable]
+  + Class [java/lang/reflect/Field]
+  + Class [java/text/DateFormat]
+  + Class [java/text/SimpleDateFormat]
+  + Class [java/util/Date]
+  + Class [pansong291/crash/CrashApplication]
+  + Class [pansong291/crash/a]
+  + Fieldref [android/content/pm/PackageInfo.versionCode I]
+  + Fieldref [android/content/pm/PackageInfo.versionName Ljava/lang/String;]
+  + Fieldref [pansong291/crash/CrashApplication.a Ljava/lang/String;]
+  + Fieldref [pansong291/crash/CrashApplication.b Ljava/lang/String;]
+  + Fieldref [pansong291/crash/CrashApplication.c I]
+  + Fieldref [pansong291/crash/CrashApplication.d Z]
+  + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [android/app/AlarmManager.set (IJLandroid/app/PendingIntent;)V]
+  + Methodref [android/app/Application.<init> ()V]
+  + Methodref [android/app/Application.onCreate ()V]
+  + Methodref [android/app/PendingIntent.getActivity (Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
+  + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+  + Methodref [android/content/Context.getPackageName ()Ljava/lang/String;]
+  + Methodref [android/content/Intent.<init> ()V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.setClassName (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [java/io/ByteArrayOutputStream.<init> ()V]
+  + Methodref [java/io/ByteArrayOutputStream.close ()V]
+  + Methodref [java/io/ByteArrayOutputStream.toByteArray ()[B]
+  + Methodref [java/io/PrintStream.<init> (Ljava/io/OutputStream;)V]
+  + Methodref [java/io/PrintStream.close ()V]
+  + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/lang/Class.getDeclaredFields ()[Ljava/lang/reflect/Field;]
+  + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/String.<init> ([B)V]
+  + Methodref [java/lang/StringBuffer.<init> ()V]
+  + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuffer.append (I)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/System.currentTimeMillis ()J]
+  + Methodref [java/lang/Thread.setDefaultUncaughtExceptionHandler (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+  + Methodref [java/lang/Throwable.printStackTrace (Ljava/io/PrintStream;)V]
+  + Methodref [java/lang/reflect/Field.get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + Methodref [java/lang/reflect/Field.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/reflect/Field.setAccessible (Z)V]
+  + Methodref [java/text/DateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
+  + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
+  + Methodref [java/util/Date.<init> ()V]
+  + Methodref [pansong291/crash/CrashApplication.a ()Ljava/lang/Class;]
+  + Methodref [pansong291/crash/CrashApplication.a (Landroid/content/Context;)Ljava/lang/String;]
+  + Methodref [pansong291/crash/CrashApplication.a (Ljava/lang/Throwable;)Ljava/lang/String;]
+  + Methodref [pansong291/crash/CrashApplication.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [pansong291/crash/CrashApplication.getPackageName ()Ljava/lang/String;]
+  + Methodref [pansong291/crash/CrashApplication.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + Methodref [pansong291/crash/a.a ()V]
+  + Methodref [pansong291/crash/a.b ()Lpansong291/crash/a;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/OutputStream;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> ([B)V]
+  + NameAndType [a ()Ljava/lang/Class;]
+  + NameAndType [a ()V]
+  + NameAndType [a (Landroid/content/Context;)Ljava/lang/String;]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a (Ljava/lang/Throwable;)Ljava/lang/String;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [append (I)Ljava/lang/StringBuffer;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()Lpansong291/crash/a;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c I]
+  + NameAndType [close ()V]
+  + NameAndType [currentTimeMillis ()J]
+  + NameAndType [d Z]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [format (Ljava/util/Date;)Ljava/lang/String;]
+  + NameAndType [get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [getActivity (Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getDeclaredFields ()[Ljava/lang/reflect/Field;]
+  + NameAndType [getMessage ()Ljava/lang/String;]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + NameAndType [getPackageManager ()Landroid/content/pm/PackageManager;]
+  + NameAndType [getPackageName ()Ljava/lang/String;]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [onCreate ()V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [printStackTrace (Ljava/io/PrintStream;)V]
+  + NameAndType [putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [set (IJLandroid/app/PendingIntent;)V]
+  + NameAndType [setAccessible (Z)V]
+  + NameAndType [setClassName (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setDefaultUncaughtExceptionHandler (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + NameAndType [toByteArray ()[B]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [versionCode I]
+  + NameAndType [versionName Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [
+]
+  + Utf8 [()J]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/pm/PackageManager;]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Lpansong291/crash/a;]
+  + Utf8 [()V]
+  + Utf8 [()[B]
+  + Utf8 [()[Ljava/lang/reflect/Field;]
+  + Utf8 [(I)Ljava/lang/StringBuffer;]
+  + Utf8 [(IJLandroid/app/PendingIntent;)V]
+  + Utf8 [(Landroid/content/Context;)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/io/OutputStream;)V]
+  + Utf8 [(Ljava/io/PrintStream;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [(Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + Utf8 [(Ljava/lang/Thread;Ljava/lang/Throwable;)V]
+  + Utf8 [(Ljava/lang/Throwable;)Ljava/lang/String;]
+  + Utf8 [(Ljava/util/Date;)Ljava/lang/String;]
+  + Utf8 [(Z)V]
+  + Utf8 [([B)V]
+  + Utf8 [-----DeviceInfos-----
+]
+  + Utf8 [-----Logs-----
+]
+  + Utf8 [<init>]
+  + Utf8 [=]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [alarm]
+  + Utf8 [android.os.Build]
+  + Utf8 [android/app/AlarmManager]
+  + Utf8 [android/app/Application]
+  + Utf8 [android/app/PendingIntent]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/content/pm/PackageInfo]
+  + Utf8 [android/content/pm/PackageManager]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [close]
+  + Utf8 [com.aide.ui]
+  + Utf8 [currentTimeMillis]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [error]
+  + Utf8 [forName]
+  + Utf8 [format]
+  + Utf8 [get]
+  + Utf8 [getActivity]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getDeclaredFields]
+  + Utf8 [getMessage]
+  + Utf8 [getName]
+  + Utf8 [getPackageInfo]
+  + Utf8 [getPackageManager]
+  + Utf8 [getPackageName]
+  + Utf8 [getSystemService]
+  + Utf8 [java/io/ByteArrayOutputStream]
+  + Utf8 [java/io/PrintStream]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/NoClassDefFoundError]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuffer]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/System]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [java/lang/Thread$UncaughtExceptionHandler]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/lang/reflect/Field]
+  + Utf8 [java/text/DateFormat]
+  + Utf8 [java/text/SimpleDateFormat]
+  + Utf8 [java/util/Date]
+  + Utf8 [null]
+  + Utf8 [onCreate]
+  + Utf8 [pansong291/crash/CrashApplication]
+  + Utf8 [pansong291/crash/a]
+  + Utf8 [printStackTrace]
+  + Utf8 [putExtra]
+  + Utf8 [set]
+  + Utf8 [setAccessible]
+  + Utf8 [setClassName]
+  + Utf8 [setDefaultUncaughtExceptionHandler]
+  + Utf8 [toByteArray]
+  + Utf8 [toString]
+  + Utf8 [uncaughtException]
+  + Utf8 [versionCode]
+  + Utf8 [versionCode=]
+  + Utf8 [versionName]
+  + Utf8 [versionName=]
+  + Utf8 [yyyy-MM-dd/HH:mm:ss]
+
+Fields (count = 4):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String b
+  + Field:        c I
+    Access flags: 0x2
+      = private int c
+  + Field:        d Z
+    Access flags: 0x2
+      = private boolean d
+
+Methods (count = 8):
+  + Method:       a()Ljava/lang/Class;
+    Access flags: 0x401
+      = public abstract java.lang.Class a()
+  + Method:       b()V
+    Access flags: 0x11
+      = public final void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] iconst_0
+      [2] putfield #48
+        + Fieldref [pansong291/crash/CrashApplication.c I]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()V
+    Access flags: 0x11
+      = public final void c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] iconst_0
+      [2] putfield #49
+        + Fieldref [pansong291/crash/CrashApplication.d Z]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate()V
+    Access flags: 0x1
+      = public void onCreate()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] ldc #9
+        + String [com.aide.ui]
+      [3] invokestatic #50
+        + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] invokespecial #53
+        + Methodref [android/app/Application.onCreate ()V]
+      [10] aload_0 v0
+      [11] aload_0 v0
+      [12] invokevirtual #92
+        + Methodref [pansong291/crash/CrashApplication.a ()Ljava/lang/Class;]
+      [15] invokevirtual #69
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [18] putfield #47
+        + Fieldref [pansong291/crash/CrashApplication.b Ljava/lang/String;]
+      [21] aload_0 v0
+      [22] aload_0 v0
+      [23] invokevirtual #96
+        + Methodref [pansong291/crash/CrashApplication.getPackageName ()Ljava/lang/String;]
+      [26] putfield #46
+        + Fieldref [pansong291/crash/CrashApplication.a Ljava/lang/String;]
+      [29] aload_0 v0
+      [30] invokestatic #83
+        + Methodref [java/lang/Thread.setDefaultUncaughtExceptionHandler (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+      [33] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
+    Access flags: 0x1
+      = public void uncaughtException(java.lang.Thread,java.lang.Throwable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 164, locals = 3, stack = 6):
+      [0] new #40
+        + Class [java/text/SimpleDateFormat]
+      [3] dup
+      [4] ldc #14
+        + String [yyyy-MM-dd/HH:mm:ss]
+      [6] invokespecial #90
+        + Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
+      [9] astore_1 v1
+      [10] new #32
+        + Class [java/lang/StringBuffer]
+      [13] dup
+      [14] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [17] new #32
+        + Class [java/lang/StringBuffer]
+      [20] dup
+      [21] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [24] aload_1 v1
+      [25] new #41
+        + Class [java/util/Date]
+      [28] dup
+      [29] invokespecial #91
+        + Methodref [java/util/Date.<init> ()V]
+      [32] invokevirtual #89
+        + Methodref [java/text/DateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
+      [35] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [38] ldc #3
+        + String [
+]
+      [40] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [43] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [46] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [49] aload_0 v0
+      [50] aload_2 v2
+      [51] invokespecial #94
+        + Methodref [pansong291/crash/CrashApplication.a (Ljava/lang/Throwable;)Ljava/lang/String;]
+      [54] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [57] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [60] astore_1 v1
+      [61] aload_0 v0
+      [62] getfield #49
+        + Fieldref [pansong291/crash/CrashApplication.d Z]
+      [65] ifeq +28 (target=93)
+      [68] new #32
+        + Class [java/lang/StringBuffer]
+      [71] dup
+      [72] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [75] aload_1 v1
+      [76] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [79] aload_0 v0
+      [80] invokevirtual #95
+        + Methodref [pansong291/crash/CrashApplication.getApplicationContext ()Landroid/content/Context;]
+      [83] invokestatic #93
+        + Methodref [pansong291/crash/CrashApplication.a (Landroid/content/Context;)Ljava/lang/String;]
+      [86] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [89] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [92] astore_1 v1
+      [93] new #20
+        + Class [android/content/Intent]
+      [96] dup
+      [97] invokespecial #57
+        + Methodref [android/content/Intent.<init> ()V]
+      [100] dup
+      [101] astore_2 v2
+      [102] aload_0 v0
+      [103] getfield #46
+        + Fieldref [pansong291/crash/CrashApplication.a Ljava/lang/String;]
+      [106] aload_0 v0
+      [107] getfield #47
+        + Fieldref [pansong291/crash/CrashApplication.b Ljava/lang/String;]
+      [110] invokevirtual #59
+        + Methodref [android/content/Intent.setClassName (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [113] pop
+      [114] aload_2 v2
+      [115] ldc #10
+        + String [error]
+      [117] aload_1 v1
+      [118] invokevirtual #58
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [121] pop
+      [122] aload_0 v0
+      [123] invokevirtual #95
+        + Methodref [pansong291/crash/CrashApplication.getApplicationContext ()Landroid/content/Context;]
+      [126] iconst_0
+      [127] aload_2 v2
+      [128] ldc #1
+        + Integer [268435456]
+      [130] invokestatic #54
+        + Methodref [android/app/PendingIntent.getActivity (Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;]
+      [133] astore_1 v1
+      [134] aload_0 v0
+      [135] ldc #7
+        + String [alarm]
+      [137] invokevirtual #97
+        + Methodref [pansong291/crash/CrashApplication.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [140] checkcast #16
+        + Class [android/app/AlarmManager]
+      [143] iconst_1
+      [144] invokestatic #82
+        + Methodref [java/lang/System.currentTimeMillis ()J]
+      [147] aload_0 v0
+      [148] getfield #48
+        + Fieldref [pansong291/crash/CrashApplication.c I]
+      [151] i2l
+      [152] ladd
+      [153] aload_1 v1
+      [154] invokevirtual #51
+        + Methodref [android/app/AlarmManager.set (IJLandroid/app/PendingIntent;)V]
+      [157] invokestatic #99
+        + Methodref [pansong291/crash/a.b ()Lpansong291/crash/a;]
+      [160] invokevirtual #98
+        + Methodref [pansong291/crash/a.a ()V]
+      [163] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/Throwable;)Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a(java.lang.Throwable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 134, locals = 5, stack = 3):
+      [0] ldc #2
+        + String []
+      [2] astore_2 v2
+      [3] aconst_null
+      [4] astore_3 v3
+      [5] aconst_null
+      [6] astore v4
+      [8] new #24
+        + Class [java/io/ByteArrayOutputStream]
+      [11] dup
+      [12] invokespecial #62
+        + Methodref [java/io/ByteArrayOutputStream.<init> ()V]
+      [15] astore_3 v3
+      [16] new #25
+        + Class [java/io/PrintStream]
+      [19] dup
+      [20] aload_3 v3
+      [21] invokespecial #65
+        + Methodref [java/io/PrintStream.<init> (Ljava/io/OutputStream;)V]
+      [24] astore v4
+      [26] aload_1 v1
+      [27] aload v4
+      [29] invokevirtual #85
+        + Methodref [java/lang/Throwable.printStackTrace (Ljava/io/PrintStream;)V]
+      [32] aload_3 v3
+      [33] invokevirtual #64
+        + Methodref [java/io/ByteArrayOutputStream.toByteArray ()[B]
+      [36] astore_1 v1
+      [37] new #31
+        + Class [java/lang/String]
+      [40] dup
+      [41] aload_1 v1
+      [42] invokespecial #73
+        + Methodref [java/lang/String.<init> ([B)V]
+      [45] astore_2 v2
+      [46] aload_0 v0
+      [47] getfield #46
+        + Fieldref [pansong291/crash/CrashApplication.a Ljava/lang/String;]
+      [50] aload_2 v2
+      [51] invokestatic #61
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [54] pop
+      [55] new #32
+        + Class [java/lang/StringBuffer]
+      [58] dup
+      [59] ldc #5
+        + String [-----Logs-----
+]
+      [61] invokespecial #75
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [64] aload_2 v2
+      [65] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [68] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [71] astore_2 v2
+      [72] goto +36 (target=108)
+      [75] invokevirtual #70
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [78] goto +30 (target=108)
+      [81] astore_1 v1
+      [82] aload v4
+      [84] ifnull +8 (target=92)
+      [87] aload v4
+      [89] invokevirtual #66
+        + Methodref [java/io/PrintStream.close ()V]
+      [92] aload_3 v3
+      [93] ifnull +7 (target=100)
+      [96] aload_3 v3
+      [97] invokevirtual #63
+        + Methodref [java/io/ByteArrayOutputStream.close ()V]
+      [100] goto +6 (target=106)
+      [103] invokevirtual #70
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [106] aload_1 v1
+      [107] athrow
+      [108] aload v4
+      [110] ifnull +8 (target=118)
+      [113] aload v4
+      [115] invokevirtual #66
+        + Methodref [java/io/PrintStream.close ()V]
+      [118] aload_3 v3
+      [119] ifnull +7 (target=126)
+      [122] aload_3 v3
+      [123] invokevirtual #63
+        + Methodref [java/io/ByteArrayOutputStream.close ()V]
+      [126] goto +6 (target=132)
+      [129] invokevirtual #70
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [132] aload_2 v2
+      [133] areturn
+      Code attribute exceptions (count = 4):
+      - ExceptionInfo (8 -> 72: 75):
+      + Class [java/lang/Exception]
+      - ExceptionInfo (8 -> 81: 81):
+      - ExceptionInfo (82 -> 100: 103):
+      + Class [java/lang/Exception]
+      - ExceptionInfo (108 -> 126: 129):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;)Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String a(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 270, locals = 4, stack = 5):
+      [0] new #33
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] ldc #4
+        + String [-----DeviceInfos-----
+]
+      [6] invokespecial #79
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [9] astore_1 v1
+      [10] aload_0 v0
+      [11] invokevirtual #55
+        + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [14] aload_0 v0
+      [15] invokevirtual #56
+        + Methodref [android/content/Context.getPackageName ()Ljava/lang/String;]
+      [18] iconst_1
+      [19] invokevirtual #60
+        + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+      [22] dup
+      [23] astore_0 v0
+      [24] ifnull +116 (target=140)
+      [27] aload_0 v0
+      [28] getfield #45
+        + Fieldref [android/content/pm/PackageInfo.versionName Ljava/lang/String;]
+      [31] ifnonnull +8 (target=39)
+      [34] ldc #11
+        + String [null]
+      [36] goto +7 (target=43)
+      [39] aload_0 v0
+      [40] getfield #45
+        + Fieldref [android/content/pm/PackageInfo.versionName Ljava/lang/String;]
+      [43] astore_2 v2
+      [44] new #32
+        + Class [java/lang/StringBuffer]
+      [47] dup
+      [48] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [51] aload_0 v0
+      [52] getfield #44
+        + Fieldref [android/content/pm/PackageInfo.versionCode I]
+      [55] invokevirtual #76
+        + Methodref [java/lang/StringBuffer.append (I)Ljava/lang/StringBuffer;]
+      [58] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [61] astore_0 v0
+      [62] aload_1 v1
+      [63] new #32
+        + Class [java/lang/StringBuffer]
+      [66] dup
+      [67] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [70] new #32
+        + Class [java/lang/StringBuffer]
+      [73] dup
+      [74] ldc #13
+        + String [versionName=]
+      [76] invokespecial #75
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [79] aload_2 v2
+      [80] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [83] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [86] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [89] ldc #3
+        + String [
+]
+      [91] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [94] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [97] invokevirtual #80
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [100] pop
+      [101] aload_1 v1
+      [102] new #32
+        + Class [java/lang/StringBuffer]
+      [105] dup
+      [106] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [109] new #32
+        + Class [java/lang/StringBuffer]
+      [112] dup
+      [113] ldc #12
+        + String [versionCode=]
+      [115] invokespecial #75
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [118] aload_0 v0
+      [119] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [122] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [125] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [128] ldc #3
+        + String [
+]
+      [130] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [133] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [136] invokevirtual #80
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [139] pop
+      [140] goto +4 (target=144)
+      [143] pop
+      [144] ldc #8
+        + String [android.os.Build]
+      [146] invokestatic #67
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [149] goto +16 (target=165)
+      [152] astore_0 v0
+      [153] new #29
+        + Class [java/lang/NoClassDefFoundError]
+      [156] dup
+      [157] aload_0 v0
+      [158] invokevirtual #84
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [161] invokespecial #71
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [164] athrow
+      [165] invokevirtual #68
+        + Methodref [java/lang/Class.getDeclaredFields ()[Ljava/lang/reflect/Field;]
+      [168] astore_2 v2
+      [169] iconst_0
+      [170] istore_0 v0
+      [171] goto +88 (target=259)
+      [174] aload_2 v2
+      [175] iload_0 v0
+      [176] aaload
+      [177] astore_3 v3
+      [178] aload_3 v3
+      [179] iconst_1
+      [180] invokevirtual #88
+        + Methodref [java/lang/reflect/Field.setAccessible (Z)V]
+      [183] aload_1 v1
+      [184] new #32
+        + Class [java/lang/StringBuffer]
+      [187] dup
+      [188] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [191] new #32
+        + Class [java/lang/StringBuffer]
+      [194] dup
+      [195] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [198] new #32
+        + Class [java/lang/StringBuffer]
+      [201] dup
+      [202] invokespecial #74
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [205] aload_3 v3
+      [206] invokevirtual #87
+        + Methodref [java/lang/reflect/Field.getName ()Ljava/lang/String;]
+      [209] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [212] ldc #6
+        + String [=]
+      [214] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [217] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [220] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [223] aload_3 v3
+      [224] aconst_null
+      [225] invokevirtual #86
+        + Methodref [java/lang/reflect/Field.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [228] invokevirtual #72
+        + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [231] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [234] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [237] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [240] ldc #3
+        + String [
+]
+      [242] invokevirtual #77
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [245] invokevirtual #78
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [248] invokevirtual #80
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [251] pop
+      [252] goto +4 (target=256)
+      [255] pop
+      [256] iinc v0, 1
+      [259] iload_0 v0
+      [260] aload_2 v2
+      [261] arraylength
+      [262] ificmplt -88 (target=174)
+      [265] aload_1 v1
+      [266] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [269] areturn
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (10 -> 140: 143):
+      + Class [java/lang/Exception]
+      - ExceptionInfo (144 -> 149: 152):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (178 -> 252: 255):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public CrashApplication()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #52
+        + Methodref [android/app/Application.<init> ()V]
+      [4] aload_0 v0
+      [5] sipush 500
+      [8] putfield #48
+        + Fieldref [pansong291/crash/CrashApplication.c I]
+      [11] aload_0 v0
+      [12] iconst_1
+      [13] putfield #49
+        + Fieldref [pansong291/crash/CrashApplication.d Z]
+      [16] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/ErrorActivity
+  Superclass:    android/app/Activity
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class pansong291.crash.ErrorActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 61):
+  + Integer [2130837504]
+  + Integer [2130968576]
+  + String [com.aide.ui]
+  + String [error]
+  + Class [a/a]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/widget/TextView]
+  + Class [java/lang/System]
+  + Class [pansong291/crash/ErrorActivity]
+  + Fieldref [pansong291/crash/ErrorActivity.a Landroid/widget/TextView;]
+  + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onBackPressed ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/Intent.getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/System.exit (I)V]
+  + Methodref [pansong291/crash/ErrorActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [pansong291/crash/ErrorActivity.getIntent ()Landroid/content/Intent;]
+  + Methodref [pansong291/crash/ErrorActivity.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [exit (I)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [onBackPressed ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com.aide.ui]
+  + Utf8 [error]
+  + Utf8 [exit]
+  + Utf8 [findViewById]
+  + Utf8 [getIntent]
+  + Utf8 [getStringExtra]
+  + Utf8 [java/lang/System]
+  + Utf8 [onBackPressed]
+  + Utf8 [onCreate]
+  + Utf8 [pansong291/crash/ErrorActivity]
+  + Utf8 [setContentView]
+  + Utf8 [setText]
+
+Fields (count = 1):
+  + Field:        a Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView a
+
+Methods (count = 3):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 47, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] ldc #3
+        + String [com.aide.ui]
+      [3] invokestatic #12
+        + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokespecial #15
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [11] aload_0 v0
+      [12] ldc #1
+        + Integer [2130837504]
+      [14] invokevirtual #21
+        + Methodref [pansong291/crash/ErrorActivity.setContentView (I)V]
+      [17] aload_0 v0
+      [18] aload_0 v0
+      [19] ldc #2
+        + Integer [2130968576]
+      [21] invokevirtual #19
+        + Methodref [pansong291/crash/ErrorActivity.findViewById (I)Landroid/view/View;]
+      [24] checkcast #8
+        + Class [android/widget/TextView]
+      [27] putfield #11
+        + Fieldref [pansong291/crash/ErrorActivity.a Landroid/widget/TextView;]
+      [30] aload_0 v0
+      [31] getfield #11
+        + Fieldref [pansong291/crash/ErrorActivity.a Landroid/widget/TextView;]
+      [34] aload_0 v0
+      [35] invokevirtual #20
+        + Methodref [pansong291/crash/ErrorActivity.getIntent ()Landroid/content/Intent;]
+      [38] ldc #4
+        + String [error]
+      [40] invokevirtual #16
+        + Methodref [android/content/Intent.getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+      [43] invokevirtual #17
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [46] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onBackPressed()V
+    Access flags: 0x1
+      = public void onBackPressed()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #14
+        + Methodref [android/app/Activity.onBackPressed ()V]
+      [4] iconst_0
+      [5] invokestatic #18
+        + Methodref [java/lang/System.exit (I)V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ErrorActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #13
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/MainActivity
+  Superclass:    pansong291/crash/Zactivity
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class pansong291.crash.MainActivity extends pansong291.crash.Zactivity
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 93):
+  + Integer [2130837505]
+  + Integer [2130968577]
+  + String [com.aide.ui]
+  + String [pansong291.crash.ErrorActivity]
+  + String [pansong291.crash.ThrowErrorActivity]
+  + Class [a/a]
+  + Class [android/content/Intent]
+  + Class [android/view/View]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/TextView]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/NoClassDefFoundError]
+  + Class [java/lang/Throwable]
+  + Class [pansong291/crash/MainActivity]
+  + Class [pansong291/crash/Zactivity]
+  + Fieldref [pansong291/crash/MainActivity.a Landroid/widget/TextView;]
+  + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/view/View.getId ()I]
+  + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+  + Methodref [pansong291/crash/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [pansong291/crash/MainActivity.finish ()V]
+  + Methodref [pansong291/crash/MainActivity.setContentView (I)V]
+  + Methodref [pansong291/crash/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [pansong291/crash/Zactivity.<init> ()V]
+  + Methodref [pansong291/crash/Zactivity.onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [getId ()I]
+  + NameAndType [getMessage ()Ljava/lang/String;]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com.aide.ui]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [forName]
+  + Utf8 [getId]
+  + Utf8 [getMessage]
+  + Utf8 [getName]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/NoClassDefFoundError]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [onClick]
+  + Utf8 [onCreate]
+  + Utf8 [pansong291.crash.ErrorActivity]
+  + Utf8 [pansong291.crash.ThrowErrorActivity]
+  + Utf8 [pansong291/crash/MainActivity]
+  + Utf8 [pansong291/crash/Zactivity]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setText]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Landroid/widget/TextView;
+    Access flags: 0x2
+      = private android.widget.TextView a
+
+Methods (count = 3):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 70, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] ldc #3
+        + String [com.aide.ui]
+      [3] invokestatic #18
+        + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokespecial #32
+        + Methodref [pansong291/crash/Zactivity.onCreate (Landroid/os/Bundle;)V]
+      [11] aload_0 v0
+      [12] ldc #1
+        + Integer [2130837505]
+      [14] invokevirtual #29
+        + Methodref [pansong291/crash/MainActivity.setContentView (I)V]
+      [17] aload_0 v0
+      [18] aload_0 v0
+      [19] ldc #2
+        + Integer [2130968577]
+      [21] invokevirtual #27
+        + Methodref [pansong291/crash/MainActivity.findViewById (I)Landroid/view/View;]
+      [24] checkcast #10
+        + Class [android/widget/TextView]
+      [27] putfield #17
+        + Fieldref [pansong291/crash/MainActivity.a Landroid/widget/TextView;]
+      [30] aload_0 v0
+      [31] getfield #17
+        + Fieldref [pansong291/crash/MainActivity.a Landroid/widget/TextView;]
+      [34] aload_0 v0
+      [35] invokevirtual #21
+        + Methodref [android/widget/TextView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [38] aload_0 v0
+      [39] getfield #17
+        + Fieldref [pansong291/crash/MainActivity.a Landroid/widget/TextView;]
+      [42] ldc #4
+        + String [pansong291.crash.ErrorActivity]
+      [44] invokestatic #23
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [47] goto +16 (target=63)
+      [50] astore_1 v1
+      [51] new #13
+        + Class [java/lang/NoClassDefFoundError]
+      [54] dup
+      [55] aload_1 v1
+      [56] invokevirtual #26
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [59] invokespecial #25
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [62] athrow
+      [63] invokevirtual #24
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [66] invokevirtual #22
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [69] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (42 -> 47: 50):
+      + Class [java/lang/ClassNotFoundException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 2, stack = 4):
+      [0] aload_1 v1
+      [1] invokevirtual #20
+        + Methodref [android/view/View.getId ()I]
+      [4] tableswitch (1 offsets, default=59) (target=63)
+        2130968577: offset = 20, target = 24
+        default: offset = 59, target = 63
+      [24] new #7
+        + Class [android/content/Intent]
+      [27] dup
+      [28] aload_0 v0
+      [29] ldc #5
+        + String [pansong291.crash.ThrowErrorActivity]
+      [31] invokestatic #23
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [34] goto +16 (target=50)
+      [37] astore_1 v1
+      [38] new #13
+        + Class [java/lang/NoClassDefFoundError]
+      [41] dup
+      [42] aload_1 v1
+      [43] invokevirtual #26
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [46] invokespecial #25
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [49] athrow
+      [50] invokespecial #19
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [53] astore_1 v1
+      [54] aload_0 v0
+      [55] aload_1 v1
+      [56] invokevirtual #30
+        + Methodref [pansong291/crash/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [59] aload_0 v0
+      [60] invokevirtual #28
+        + Methodref [pansong291/crash/MainActivity.finish ()V]
+      [63] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (29 -> 34: 37):
+      + Class [java/lang/ClassNotFoundException]
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #31
+        + Methodref [pansong291/crash/Zactivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/MyApplication
+  Superclass:    pansong291/crash/CrashApplication
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class pansong291.crash.MyApplication extends pansong291.crash.CrashApplication
+
+Interfaces (count = 0):
+
+Constant Pool (count = 39):
+  + String [pansong291.crash.ErrorActivity]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/NoClassDefFoundError]
+  + Class [java/lang/Throwable]
+  + Class [pansong291/crash/CrashApplication]
+  + Class [pansong291/crash/MyApplication]
+  + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+  + Methodref [pansong291/crash/CrashApplication.<init> ()V]
+  + Methodref [pansong291/crash/MyApplication.b ()V]
+  + Methodref [pansong291/crash/MyApplication.c ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [b ()V]
+  + NameAndType [c ()V]
+  + NameAndType [forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [getMessage ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [forName]
+  + Utf8 [getMessage]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/NoClassDefFoundError]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [pansong291.crash.ErrorActivity]
+  + Utf8 [pansong291/crash/CrashApplication]
+  + Utf8 [pansong291/crash/MyApplication]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  + Method:       a()Ljava/lang/Class;
+    Access flags: 0x11
+      = public final java.lang.Class a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 27, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #12
+        + Methodref [pansong291/crash/MyApplication.b ()V]
+      [4] aload_0 v0
+      [5] invokevirtual #13
+        + Methodref [pansong291/crash/MyApplication.c ()V]
+      [8] ldc #1
+        + String [pansong291.crash.ErrorActivity]
+      [10] invokestatic #8
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [13] areturn
+      [14] astore_1 v1
+      [15] new #4
+        + Class [java/lang/NoClassDefFoundError]
+      [18] dup
+      [19] aload_1 v1
+      [20] invokevirtual #10
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [23] invokespecial #9
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [26] athrow
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (8 -> 13: 14):
+      + Class [java/lang/ClassNotFoundException]
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyApplication()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #11
+        + Methodref [pansong291/crash/CrashApplication.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/ThrowErrorActivity
+  Superclass:    pansong291/crash/Zactivity
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class pansong291.crash.ThrowErrorActivity extends pansong291.crash.Zactivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 72):
+  + Integer [2130837506]
+  + Integer [2130968578]
+  + String [com.aide.ui]
+  + String [packageName===]
+  + Class [a/a]
+  + Class [android/widget/TextView]
+  + Class [java/io/PrintStream]
+  + Class [java/lang/StringBuffer]
+  + Class [java/lang/System]
+  + Class [pansong291/crash/CrashApplication]
+  + Class [pansong291/crash/ThrowErrorActivity]
+  + Class [pansong291/crash/Zactivity]
+  + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+  + Fieldref [pansong291/crash/ThrowErrorActivity.a Landroid/widget/TextView;]
+  + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+  + Methodref [pansong291/crash/CrashApplication.getPackageName ()Ljava/lang/String;]
+  + Methodref [pansong291/crash/ThrowErrorActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [pansong291/crash/ThrowErrorActivity.getApplication ()Landroid/app/Application;]
+  + Methodref [pansong291/crash/ThrowErrorActivity.setContentView (I)V]
+  + Methodref [pansong291/crash/Zactivity.<init> ()V]
+  + Methodref [pansong291/crash/Zactivity.onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a Landroid/widget/TextView;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getApplication ()Landroid/app/Application;]
+  + NameAndType [getPackageName ()Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [out Ljava/io/PrintStream;]
+  + NameAndType [println (Ljava/lang/String;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Landroid/app/Application;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Ljava/io/PrintStream;]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [com.aide.ui]
+  + Utf8 [findViewById]
+  + Utf8 [getApplication]
+  + Utf8 [getPackageName]
+  + Utf8 [java/io/PrintStream]
+  + Utf8 [java/lang/StringBuffer]
+  + Utf8 [java/lang/System]
+  + Utf8 [onCreate]
+  + Utf8 [out]
+  + Utf8 [packageName===]
+  + Utf8 [pansong291/crash/CrashApplication]
+  + Utf8 [pansong291/crash/ThrowErrorActivity]
+  + Utf8 [pansong291/crash/Zactivity]
+  + Utf8 [println]
+  + Utf8 [setContentView]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Landroid/widget/TextView;
+    Access flags: 0x2
+      = private android.widget.TextView a
+
+Methods (count = 2):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] ldc #3
+        + String [com.aide.ui]
+      [3] invokestatic #15
+        + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokespecial #25
+        + Methodref [pansong291/crash/Zactivity.onCreate (Landroid/os/Bundle;)V]
+      [11] aload_0 v0
+      [12] ldc #1
+        + Integer [2130837506]
+      [14] invokevirtual #23
+        + Methodref [pansong291/crash/ThrowErrorActivity.setContentView (I)V]
+      [17] aload_0 v0
+      [18] invokevirtual #22
+        + Methodref [pansong291/crash/ThrowErrorActivity.getApplication ()Landroid/app/Application;]
+      [21] checkcast #10
+        + Class [pansong291/crash/CrashApplication]
+      [24] invokevirtual #20
+        + Methodref [pansong291/crash/CrashApplication.getPackageName ()Ljava/lang/String;]
+      [27] astore_1 v1
+      [28] getstatic #13
+        + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [31] new #8
+        + Class [java/lang/StringBuffer]
+      [34] dup
+      [35] ldc #4
+        + String [packageName===]
+      [37] invokespecial #17
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [40] aload_1 v1
+      [41] invokevirtual #18
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [44] invokevirtual #19
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [47] invokevirtual #16
+        + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [50] aload_0 v0
+      [51] aload_0 v0
+      [52] ldc #2
+        + Integer [2130968578]
+      [54] invokevirtual #21
+        + Methodref [pansong291/crash/ThrowErrorActivity.findViewById (I)Landroid/view/View;]
+      [57] checkcast #6
+        + Class [android/widget/TextView]
+      [60] putfield #14
+        + Fieldref [pansong291/crash/ThrowErrorActivity.a Landroid/widget/TextView;]
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ThrowErrorActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #24
+        + Methodref [pansong291/crash/Zactivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pansong291/crash/Zactivity
+  Superclass:    android/app/Activity
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class pansong291.crash.Zactivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 36):
+  + String [com.aide.ui]
+  + Class [a/a]
+  + Class [android/app/Activity]
+  + Class [pansong291/crash/Zactivity]
+  + Class [pansong291/crash/a]
+  + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [pansong291/crash/a.a (Landroid/app/Activity;)V]
+  + Methodref [pansong291/crash/a.b ()Lpansong291/crash/a;]
+  + Methodref [pansong291/crash/a.b (Landroid/app/Activity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Landroid/app/Activity;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [b ()Lpansong291/crash/a;]
+  + NameAndType [b (Landroid/app/Activity;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + Utf8 [()Lpansong291/crash/a;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [b]
+  + Utf8 [com.aide.ui]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [pansong291/crash/Zactivity]
+  + Utf8 [pansong291/crash/a]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] ldc #1
+        + String [com.aide.ui]
+      [3] invokestatic #6
+        + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokespecial #8
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [11] invokestatic #11
+        + Methodref [pansong291/crash/a.b ()Lpansong291/crash/a;]
+      [14] aload_0 v0
+      [15] invokevirtual #10
+        + Methodref [pansong291/crash/a.a (Landroid/app/Activity;)V]
+      [18] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDestroy()V
+    Access flags: 0x4
+      = protected void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #9
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [4] invokestatic #11
+        + Methodref [pansong291/crash/a.b ()Lpansong291/crash/a;]
+      [7] aload_0 v0
+      [8] invokevirtual #12
+        + Methodref [pansong291/crash/a.b (Landroid/app/Activity;)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Zactivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

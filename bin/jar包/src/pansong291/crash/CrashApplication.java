@@ -1,14 +1,20 @@
 package pansong291.crash;
 
-import android.app.*;
-import android.content.*;
-import android.content.pm.*;
-import android.os.*;
-import java.io.*;
-import java.lang.reflect.*;
-import java.text.*;
-import java.util.*;
-import android.util.*;
+import android.app.AlarmManager;
+import android.app.Application;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.os.Build;
+import android.util.Log;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.lang.reflect.Field;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public abstract class CrashApplication extends
 Application implements
@@ -16,9 +22,15 @@ Thread.UncaughtExceptionHandler
 {
  public static final String ERROR_MESSAGE_TAG="error";
  private String PACKAGENAME,ACTIVITY;
+ private int restartTime=500;
  private boolean showDeviceInfo=true;
  
  public abstract Class<?> getPackageActivity();
+ 
+ public void setRestartTime(int i)
+ {
+  restartTime=i;
+ }
  
  public void setShouldShowDeviceInfo(boolean b)
  {
@@ -48,9 +60,9 @@ Thread.UncaughtExceptionHandler
   PendingIntent pendingIntent=PendingIntent.getActivity(
    getApplicationContext(),0,intent,Intent.FLAG_ACTIVITY_NEW_TASK);
   AlarmManager mAlarmManager=(AlarmManager)getSystemService(Context.ALARM_SERVICE);
-  mAlarmManager.set(AlarmManager.RTC,System.currentTimeMillis()+500,
+  mAlarmManager.set(AlarmManager.RTC,System.currentTimeMillis()+restartTime,
    pendingIntent);
-  ActivityControl.getActivityControl().finishProgrom();
+  ASControl.getASControl().finishProgrom();
  }
  
  public String getLogs(Throwable ex)
